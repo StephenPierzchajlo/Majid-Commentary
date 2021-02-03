@@ -89,7 +89,8 @@ figure <- ggarrange(B, A,
 figure2 <- text.p
 
 figure3 <- ggarrange(figure, figure2, ncol=1, nrow=2, vjust = c(0, 20))
-annotate_figure(figure3, top = text_grob("Sensory naming", color = "black", face = "bold", size = 15))
+fig4 <- annotate_figure(figure3, top = text_grob("Sensory naming", color = "black", face = "bold", size = 15))
+fig4
 ```
 
 ![](Majid_Graph_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
